@@ -1,0 +1,25 @@
+
+
+.footer{
+    bottom:0;
+    left:0;
+    min-width: 100%;
+    /* border: 2px blue solid; */
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.footer-right{
+    font-family: 'Nixie One', cursive;
+    font-weight: 400;
+    padding: 1rem 2rem;
+}
+
+.footer-left{
+    font-family: 'Kelly Slab', cursive;
+    padding: 1rem 2rem;
+}

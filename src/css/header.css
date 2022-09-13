@@ -1,0 +1,36 @@
+
+.header{
+    top:0;
+    left:0;
+    min-width: 100vw;
+    /* min-height: 100vh; */
+    /* border: 2px blue solid; */
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right h1{
+    font-size: 2em;
+    font-family: 'Nixie One', cursive;
+    padding: 0 2rem;
+
+    /* font-family: 'Sacramento', cursive; */
+}
+
+.header-left a{
+    font-family: 'Kelly Slab', cursive;
+    padding: 0 2rem;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+
+/* font-family: 'Kelly Slab', cursive;
+font-family: 'Nixie One', cursive;
+font-family: 'Sacramento', cursive; */
