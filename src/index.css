@@ -10,4 +10,6 @@ body{
   width: 100vw;
   margin:0;
   overflow: hidden;
+  background-color: lightblue;
 }
+

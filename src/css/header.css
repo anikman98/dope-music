@@ -30,6 +30,18 @@
     font-weight: 100;
 }
 
+@media screen and (max-width: 800px) {
+    .header-right h1{
+        padding: 0 1rem;
+        font-size: 1.3em;
+    }
+
+    .header-left a{
+        padding: 0 1rem;
+        font-size: 1.1em;
+    }
+}
+
 
 /* font-family: 'Kelly Slab', cursive;
 font-family: 'Nixie One', cursive;
