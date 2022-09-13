@@ -4,3 +4,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.main-button{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgba(231, 109, 255, 0.253);
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.3);
+}

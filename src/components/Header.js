@@ -7,7 +7,7 @@ const Header = () => {
             <h1>dope music</h1>
         </div>
         <div className="header-left">
-            <a href="https://iamanikman.web.app/contact">anikmandal</a> 
+            <a href="https://iamanikman.web.app/contact">anikmandal</a>
         </div>
     </nav>
   )
