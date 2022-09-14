@@ -3,8 +3,6 @@
     top:0;
     left:0;
     min-width: 100vw;
-    /* min-height: 100vh; */
-    /* border: 2px blue solid; */
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -16,8 +14,6 @@
     font-size: 2em;
     font-family: 'Nixie One', cursive;
     padding: 0 2rem;
-
-    /* font-family: 'Sacramento', cursive; */
 }
 
 .header-left a{
@@ -26,7 +22,7 @@
     font-weight: 700;
     font-size: 1.4em;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 100;
 }
 

@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import ReactPlayer from "react-player";
 import '../css/main.css';
-import play from '../resource/play-button.svg';
-import pause from '../resource/pause-button.svg';
+
 
 
 const Main = () => {
@@ -14,13 +13,8 @@ const Main = () => {
 
   return (
     <div className="container">
-        <button
-            className='main-button'
-            onClick={handleClick}>{
-            playing 
-            ? "pause"
-            : "play"
-        }</button>
+        <div className={playing ? 'main-button main-button-play' : 'main-button' } onClick={handleClick}></div>
+        <div className={playing ? 'action action-pause' : 'action action-play'} onClick={handleClick}></div>
         <ReactPlayer
             className="player"
             url={"https://youtu.be/jfKfPfyJRdk"} 

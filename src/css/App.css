@@ -2,7 +2,6 @@
   min-height: 100vh;
   text-align: center;
   margin: auto;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
 }
