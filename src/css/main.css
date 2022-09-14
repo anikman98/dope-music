@@ -6,10 +6,10 @@
 }
 
 .main-button{
-    background-image: url("");
+    background-image: url("https://raw.githubusercontent.com/anikman98/dope-music/master/src/resource/record.png");
     background-repeat: no-repeat;
     background-size: auto;
-    background-color: rgba(231, 109, 255, 0.253);
+    /* background-color: rgba(231, 109, 255, 0.253); */
     height: 25vh;
     width: 25vh;
     border-radius: 50%;
