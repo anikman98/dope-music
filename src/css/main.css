@@ -46,8 +46,7 @@
 
 }
 .action-play{
-    margin-left: 0.15em;
-    background: url('https://raw.githubusercontent.com/anikman98/dope-music/0aa57cca3b9fd52b04ff37f0958ce8b27a8f3f36/src/resource/play-button.svg');
+    background: url('https://raw.githubusercontent.com/anikman98/dope-music/ff61e11c8711ae88a33adcd901b0d6d76ba20ef9/src/resource/play-button.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
