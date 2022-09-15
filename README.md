@@ -1,3 +1,10 @@
+Music: https://www.youtube.com/watch?v=jfKfPfyJRdk
+
+Record image: <a href="https://www.freepik.com/free-photo/vintage-looking-vinyl-record_15024205.htm?query=record">Image by claudiodiv2</a> on Freepik
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -43,7 +43,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transition: ease 0.2s;
-
 }
 .action-play{
     background: url('https://raw.githubusercontent.com/anikman98/dope-music/ff61e11c8711ae88a33adcd901b0d6d76ba20ef9/src/resource/play-button.svg');
@@ -57,3 +56,4 @@
     background-position: center;
     background-size: contain;
 }
+

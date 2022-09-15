@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
         <div className="footer-left"><b>lofi</b></div>
+        <div className="footer-center"><b>Side project by <img src="https://dopeui.kiwismedia.com/assets/fueler_icon.svg" /> Fueler</b></div>
         <div className="footer-right"><a href="https://github.com/anikman98/dope-music" target={"_blank"} rel="noreferrer">v1.0</a></div>
     </footer>
   )

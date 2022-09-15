@@ -25,7 +25,19 @@
 }
 .footer-right a{
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.footer-center{
+    font-family: 'Nixie One', cursive;
+    font-size: 1.2rem;
+    margin-bottom: -1rem;
+}
+
+.footer-center img{
+    width: 25px;
+    vertical-align: middle;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 800px) {
