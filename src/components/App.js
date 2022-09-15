@@ -6,14 +6,14 @@ import {useState, useEffect} from 'react';
 import "@fontsource/metropolis";
 
 function App() {
-  const [gif, setGif] = useState(Math.floor(Math.random() * 3));
+  const [gif, setGif] = useState(Math.floor(Math.random() * 15));
 
   console.log(gif);
 
   useEffect(() => {
     const interval = setInterval(
-      () => setGif(Math.floor(Math.random() * 3)),
-      Math.floor(Math.random() * 15000 + 1000)
+      () => setGif(Math.floor(Math.random() * 15)),
+      Math.floor(Math.random() * 20000 + 1000)
     );
 
     return () => {
