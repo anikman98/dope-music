@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(
       () => setGif(Math.floor(Math.random() * 15)),
-      Math.floor(Math.random() * 20000 + 1000)
+      Math.floor(Math.random() * 30000 + 1000)
     );
 
     return () => {
@@ -23,12 +23,13 @@ function App() {
 
   return (
     <div className="app">
-      <img className='overlay-gif' src={ require('../resource/giphy.gif')} size={"100vw"}/>
-      <img className='back-gif' src={ require('../resource/gifs/'+gif+'.gif')} size={"100vw"}/>
-
-      <Header className="app-header" />
-      <Main/>
-      <Footer className="app-footer" />
+    <img className='overlay-gif' src={ require('../resource/giphy.gif')} size={"100vw"} alt=""/>
+    <img className='back-gif' src={ require('../resource/gifs/'+gif+'.gif')} size={"100vw"} alt=""/>
+    <div className="overlay"></div>
+    
+    <Header className="app-header" />
+    <Main/>
+    <Footer className="app-footer" />
     </div>
   );
 }

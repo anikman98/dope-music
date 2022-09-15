@@ -14,9 +14,19 @@
 }
 
 .overlay-gif{
+  position: fixed;
+  z-index: -1;
   height: 100vh;
   width: 100vw;
-  opacity: 0.1;
+  opacity: 0.15;
+}
+
+.overlay{
+  position:fixed;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 @media( min-aspect-ratio: 16/9){
