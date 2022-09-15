@@ -1,4 +1,6 @@
-
+.fueler{
+    font-family: "Metropolis";
+}
 
 .footer{
     bottom:0;
@@ -23,9 +25,9 @@
     padding: 1rem 2rem;
     font-size: 2rem;
 }
-.footer-right a{
+.footer a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .footer-center{

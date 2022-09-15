@@ -11,6 +11,8 @@ const Main = () => {
         setPlaying(!playing);
     }
 
+    
+
   return (
     <div className="container">
         <div className={playing ? 'main-button main-button-play' : 'main-button' } onClick={handleClick}></div>
